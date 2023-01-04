@@ -1,2 +1,48 @@
-<h1>Hello world<h1>
-<noscript>pls en js</noscript>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пример загруженной формы</title>
+</head>
+<body>
+    <main>
+        <section class="formList">
+            <div class="firstQuestion--getRequest">                
+                <form action="" method="get">
+                    <label for="getReuestName">Проверка get-запросов
+                        <input type="text" name="">
+                    </label>
+                </form>
+            </div>
+            <div class="secondQuestion--postRequest">                
+                <form action="" method="post">
+                    <label for="postRequestName">Проверка post-запросов
+                        <input type="text" name="" id="">
+                    </label>
+                </form>
+            </div>
+            <div class="thirdQuestion--postRequest">                
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>Проверка post-запросов с кнопкой</legend>
+                        <label for="">
+                            <input type="radio" name="level" id="">
+                            Левая кнопка
+                        </label>
+                        <label for="">
+                            <input type="radio" name="level" id="" checked>
+                            Кнопка посередине
+                        </label>
+                        <label for="">
+                            <input type="radio" name="level" id="">
+                            Правая кнопка
+                        </label>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
